@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AudioWars</string>
+    <string name="nani">nani</string>
+    <string name="fat">fat</string>
+    <string name="you_are_a_liar">You are a Liar</string>
+    <string name="poor_children">Poor Children</string>
+    <string name="straight_answer">Straight Answer</string>
+    <string name="uncle_jo">Uncle Jo</string>
+    <string name="button">Button</string>
+    <string name="sound_1">sound 1</string>
+    <string name="sound_2">sound 2</string>
+    <string name="sound_3">sound 3</string>
+    <string name="sound_4">sound 4</string>
+    <string name="sound_5">sound 5</string>
+    <string name="sound_6">sound 6</string>
+    <string name="look_fat">Look Fat</string>
+    <string name="get_your_words_straight_jack">Get your words straight Jack</string>
+    <string name="jack">Jack!!</string>
+</resources>
