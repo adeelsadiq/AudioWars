@@ -12,25 +12,27 @@
 
     <Button
         android:id="@+id/fab"
-        android:layout_width="193dp"
-        android:layout_height="683dp"
-        android:text="Dems "
+        android:layout_width="183dp"
+        android:layout_height="614dp"
+        android:background="@android:color/transparent"
+        android:text="@string/dems"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="190dp"
-        android:layout_height="686dp"
-        android:text="Reps"
+        android:layout_width="183dp"
+        android:layout_height="611dp"
+        android:background="@android:color/transparent"
+        android:text="@string/reps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="@+id/fab"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.675" />
 </androidx.constraintlayout.widget.ConstraintLayout>
