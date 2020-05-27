@@ -17,8 +17,7 @@ import android.view.View;
 public class Main2Activity extends AppCompatActivity {
 
     private SoundPool soundPool;
-    private int sound1, sound2, sound3, sound4, sound5, sound6;
-    private int sound3StreamId;
+    private int sound1, sound2, sound3, sound4, sound5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +39,7 @@ public class Main2Activity extends AppCompatActivity {
         sound3 = soundPool.load(this, R.raw.poor, 1);
         sound4 = soundPool.load(this, R.raw.straight, 1);
         sound5 = soundPool.load(this, R.raw.nani, 1);
-        sound6 = soundPool.load(this, R.raw.nani, 1);
+
     }
     public void playSound(View v) {
         switch (v.getId()) {
@@ -51,7 +50,7 @@ public class Main2Activity extends AppCompatActivity {
                 soundPool.play(sound2, 1, 1, 0, 0, 1);
                 break;
             case R.id.button_sound3:
-                sound3StreamId = soundPool.play(sound3, 1, 1, 0, 0, 1);
+                soundPool.play(sound3, 1, 1, 0, 0, 1);
                 break;
             case R.id.button_sound4:
                 soundPool.play(sound4, 1, 1, 0, 0, 1);

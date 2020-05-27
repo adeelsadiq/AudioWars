@@ -11,8 +11,8 @@
         android:id="@+id/button_sound1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:background="@android:color/transparent"
         android:onClick="playSound"
         android:text="@string/look_fat"
@@ -20,16 +20,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_sound4"
-        app:layout_constraintVertical_bias="0.082"
+        app:layout_constraintVertical_bias="0.373"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_sound2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="204dp"
-        android:layout_marginRight="204dp"
-        android:layout_marginBottom="500dp"
         android:background="@android:color/transparent"
         android:onClick="playSound"
         android:text="@string/you_are_a_liar"
@@ -37,20 +34,22 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_sound4"
-        app:layout_constraintVertical_bias="0.531" />
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
 
     <Button
         android:id="@+id/button_sound3"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginRight="104dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
         android:background="@android:color/transparent"
         android:onClick="playSound"
         android:text="@string/poor_children"
-        android:textColor="#EC0505"
+        android:textColor="#4A1010"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,21 +57,23 @@
         android:id="@+id/button_sound4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28dp"
         android:background="@android:color/transparent"
         android:onClick="playSound"
         android:text="@string/jack"
         android:textColor="#730000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_sound3" />
+        app:layout_constraintTop_toBottomOf="@+id/button_sound2" />
 
     <Button
         android:id="@+id/button_sound5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
         android:background="@android:color/transparent"
         android:onClick="playSound"
         android:text="@string/nani"

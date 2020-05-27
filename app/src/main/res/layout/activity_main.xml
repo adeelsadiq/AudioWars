@@ -11,7 +11,7 @@
 
 
     <Button
-        android:id="@+id/fab"
+        android:id="@+id/demPick"
         android:layout_width="183dp"
         android:layout_height="614dp"
         android:background="@android:color/transparent"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.666" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/repPick"
         android:layout_width="183dp"
         android:layout_height="611dp"
         android:background="@android:color/transparent"
@@ -32,7 +32,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"
-        app:layout_constraintStart_toStartOf="@+id/fab"
+        app:layout_constraintStart_toStartOf="@+id/demPick"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.675" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="        Take Your Pick!"
+        android:textColor="#A62F2F"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
